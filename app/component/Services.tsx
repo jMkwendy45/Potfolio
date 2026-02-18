@@ -7,22 +7,23 @@ const services = [
   {
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "I design intuitive, user-centered interfaces that combine clean visual aesthetics with seamless user experience. My approach focuses on usability, accessibility, and conversion-driven layouts that enhance engagement and deliver measurable results.",
     icon: Palette,
   },
   {
     title: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "I create modern, responsive, and performance-optimized website designs tailored to business goals. From landing pages to full corporate platforms, I ensure cross-device compatibility, fast loading speeds, and visually compelling brand presentation.",
     icon: Monitor,
   },
   {
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "I build scalable full-stack web applications using modern technologies like Node.js, Java, and Python. My development process emphasizes clean architecture, secure APIs, efficient databases, and maintainable codebases built for long-term growth.",
     icon: Code,
   },
 ];
+
 
 export default function ServicesSection() {
   return (

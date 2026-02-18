@@ -33,7 +33,7 @@ const HeroSection = () => {
             className="flex justify-center"
           >
             <div className="relative">
-              <motion.div
+              {/* <motion.div
                 animate={{ rotate: 320 }}
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                 className="w-64 h-100 lg:w-80 lg:h-80 rounded-full 
@@ -52,7 +52,25 @@ const HeroSection = () => {
                     transition-transform duration-700 hover:scale-110"
                   />
                 </div>
-              </motion.div>
+              </motion.div> */}
+<motion.div
+  animate={{ rotate: 320 }}
+  transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+  className="w-64 lg:w-80 aspect-square rounded-full 
+  bg-gradient-to-br from-primary to-orange-400 p-1"
+>
+  <div
+    className="w-full h-full rounded-full bg-card 
+    flex items-center justify-center overflow-hidden"
+  >
+    <Image
+      src={oluchimage}
+      alt="Oluchi Duru"
+      className="w-full h-full object-cover rounded-full 
+      transition-transform duration-700 hover:scale-110"
+    />
+  </div>
+</motion.div>
 
               <motion.div
                 animate={{ y: [0, -20, 0] }}
